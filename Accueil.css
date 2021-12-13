@@ -120,3 +120,36 @@ footer,.schedule,body,section>ul{
   .body{
     position:relative;
   }
+
+  @media screen and (max-width:640px) {
+    .schedule-location{
+      flex-direction:column;
+      align-content:center;
+    }
+    .img-upper{
+      height:150px;
+    }
+  }
+  @media screen and (min-width:1600px){
+    p,a,td,th,section ul,button a{
+      font-size:2rem;
+    }
+    article h2{
+      font-size:4rem;
+    }
+    section h3{
+      font-size:3rem;
+    }
+    .icons{
+      width:5rem;
+      height:5rem;
+    }
+    .icons-joined{
+      width:2.5rem;
+      height:2.5rem;
+    }
+    .img-upper{
+      height:400px;
+      width:50%;
+    }
+  }
