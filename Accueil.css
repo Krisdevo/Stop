@@ -49,7 +49,7 @@ body,footer{
   }
 .img-upper{
     width:60%;
-    height:300px;
+    height:150px;
   }
 
 /*TEXT STYLE*/
@@ -99,15 +99,19 @@ ul>li a,footer,.contact>ul,.social>ul,.schedule-location,
 header{
   align-items: center;
 }
-.contact>ul,.social>ul,.schedule-location{
+.contact>ul,.social>ul{
   justify-content:space-around;
 }
 .button-center,.img-upper,.list-center{
   justify-content:center;
 }
 
-footer,.schedule,body,section>ul{
+footer,.schedule,body,section>ul,.schedule-location{
   flex-direction: column;
+}
+
+.schedule-location{
+  align-content:center;
 }
 
 /*LAYOUT*/
@@ -121,17 +125,17 @@ footer,.schedule,body,section>ul{
     position:relative;
   }
 
-  @media screen and (max-width:640px) {
+  @media screen and (min-width:640px) {
     .schedule-location{
-      flex-direction:column;
-      align-content:center;
+      flex-direction:row;
+      justify-content: space-around;
     }
     .img-upper{
-      height:150px;
+      height:300px;
     }
   }
-  @media screen and (min-width:1600px){
-    p,a,td,th,section ul,button a{
+  @media screen and (min-width:1440px){
+    p,a,td,th,section ul,.button-center a{
       font-size:2rem;
     }
     article h2{
@@ -148,8 +152,26 @@ footer,.schedule,body,section>ul{
       width:2.5rem;
       height:2.5rem;
     }
-    .img-upper{
-      height:400px;
-      width:50%;
+    tr td{
+      padding:1.5rem;
     }
+    .back-to-top{
+      display:none;
+    }
+   
+  }
+  
+  @media screen and (min-width:2400px){
+    p,a,td,th,section ul{
+      font-size:2.5rem;
+    }
+  
+    section h3{
+      font-size:3.5rem;
+    }
+
+    .img-upper{
+      height:450px;
+    }
+    
   }
