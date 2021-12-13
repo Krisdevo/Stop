@@ -126,3 +126,53 @@ body{
   }
 
 
+@media screen and (min-width:1400px){
+    p,a,li,.introduction{
+      font-size:2rem
+    }
+    .event-title>h2{
+      font-size:3.5rem;
+    }
+    .main-event>h3{
+      font-size:2.5rem;
+    }
+    .icons,.back-to-top{
+      width:5rem;
+      height:5rem;
+    }
+    .icons-joined{
+      width:2.5rem;
+      height:2.5rem;
+    }
+    ol,ul{
+      margin-left:1rem;
+    }
+
+  }
+  
+  @media screen and (min-width:2500px){
+
+    p,a,li,.introduction{
+      font-size:2.5rem;
+    }
+    .event-title>h2{
+      font-size:4.5rem;
+    }
+    .main-event>h3{
+      font-size:3.5rem;
+    }
+    .icons{
+      width:5.5rem;
+      height:5.5rem;
+    }
+    .icons-joined{
+      width:3rem;
+      height:3rem;
+    }
+    ol,ul{
+      margin-left:1.5rem;
+    }
+    .back-to-top{
+      display:none;
+    }
+  }
