@@ -83,6 +83,9 @@ footer ul li{
 h3,p a:hover{
     text-decoration:underline;
   }
+li a:hover{
+    color:white;
+  }
 
 /*FONT*/
 
@@ -95,7 +98,8 @@ p{
 
 /*LAYOUT WITH FLEXBOX*/
 
-ul>li a,footer,body,.contact>ul,.social>ul,.event-time,.event-price,.event-title,.event-place,article
+ul>li a,footer,body,.contact>ul,.social>ul,.event-time,.event-price,
+.event-title,.event-place,article
 {
   display: flex;
 }

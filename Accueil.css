@@ -70,6 +70,9 @@ thead th,td,h2,h3,p{
 p a:hover,h2{
     text-decoration:underline;
   }
+li a:hover{
+  color:white;
+}
 
 /*BORDER*/
 
