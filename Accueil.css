@@ -36,7 +36,7 @@ tr th{
 
 /*HEIGHTS & WIDTHS*/
 
-body,footer{
+body{
     width:100%;
   }
 .logo-img{
@@ -98,9 +98,6 @@ ul>li a,footer,.contact>ul,.social>ul,.schedule-location,
 .schedule,body,.img-article,.button-center,.img-upper,.list-center
 {
   display: flex;
-}
-header{
-  align-items: center;
 }
 .contact>ul,.social>ul{
   justify-content:space-around;
