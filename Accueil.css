@@ -51,7 +51,10 @@ body{
     width:60%;
     height:150px;
   }
-
+.img-section{
+  width:90%;
+  height:150px;
+}
 /*TEXT STYLE*/
 
 p{
@@ -95,14 +98,14 @@ h2{
 /*LAYOUT WITH FLEXBOX*/
 
 ul>li a,footer,.contact>ul,.social>ul,.schedule-location,
-.schedule,body,.img-article,.button-center,.img-upper,.list-center
+.schedule,body,.img-article,.button-center,.img-upper,.list-center,.img-wrap
 {
   display: flex;
 }
 .contact>ul,.social>ul{
   justify-content:space-around;
 }
-.button-center,.img-upper,.list-center{
+.button-center,.img-upper,.list-center,.img-wrap{
   justify-content:center;
 }
 
@@ -114,6 +117,7 @@ footer,.schedule,body,section>ul,.schedule-location{
   align-content:center;
 }
 
+
 /*LAYOUT*/
 
 .back-to-top{
@@ -121,57 +125,41 @@ footer,.schedule,body,section>ul,.schedule-location{
     bottom:100px;
     right:0;
   }
-  .body{
+.body{
     position:relative;
   }
 
-  @media screen and (min-width:640px) {
-    .schedule-location{
+
+
+
+@media screen and (min-width:400px){
+  .img-section{
+      width:60%;
+    }
+  }
+
+@media screen and (min-width:640px) {
+  .schedule-location{
       flex-direction:row;
       justify-content: space-around;
     }
-    .img-upper{
+  .img-upper,.img-section{
       height:300px;
     }
   }
-  @media screen and (min-width:1440px){
-    p,a,td,th,section ul,.button-center a{
-      font-size:2rem;
-    }
-    article h2{
-      font-size:4rem;
-    }
-    section h3{
-      font-size:3rem;
-    }
-    .icons{
-      width:5rem;
-      height:5rem;
-    }
-    .icons-joined{
-      width:2.5rem;
-      height:2.5rem;
-    }
-    tr td{
-      padding:1.5rem;
-    }
-    .back-to-top{
-      display:none;
-    }
-   
-  }
-  
-  @media screen and (min-width:2400px){
-    p,a,td,th,section ul{
-      font-size:2.5rem;
-    }
-  
-    section h3{
-      font-size:3.5rem;
-    }
 
-    .img-upper{
-      height:450px;
-    }
-    
+@media screen and (min-width:1316px){
+  .img-section{
+    height:350px;
   }
+}
+
+@media screen and (min-width:1598px){
+  .img-section{
+    width:50%;
+  }
+
+  .img-upper{
+    height:450px;
+  }
+}
