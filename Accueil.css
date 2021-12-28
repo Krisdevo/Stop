@@ -30,6 +30,9 @@ article p,section h3{
 .schedule-location{
     margin-bottom:2rem;
   }
+p,h3{
+  margin-left:1rem;
+}
 tr th{
       padding:0.5rem;
     }
@@ -67,7 +70,7 @@ ul>li a,p a{
 .contact>ul li, .social>ul li,nav>ul li{
     list-style: none;
   }
-thead th,td,h2,h3,p{
+thead th,td,h2,.project p{
     text-align: center;
   }
 p a:hover,h2{
