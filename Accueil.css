@@ -67,7 +67,7 @@ ul>li a,p a{
     text-decoration:none;
   }
   
-.contact>ul li, .social>ul li,nav>ul li{
+.contact>ul li,.social>ul li,nav>ul li{
     list-style: none;
   }
 thead th,td,h2,.project p{

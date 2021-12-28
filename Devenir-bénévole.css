@@ -1,15 +1,16 @@
 /*COLOR*/
+
 main{
     background:#371a94;
    }
 footer,.form-header{
-     background:black;
+    background:black;
    }
 ul>li a,h2,p{
-     color:white;
+    color:white;
    }
 form{
-     background:whitesmoke;
+    background:whitesmoke;
    }
 
 /*MARGIN AND PADDING*/
@@ -18,22 +19,23 @@ body{
     margin:0;
     }
 .introduction{
-  margin:2rem;
+    margin:2rem;
     }   
 form{
-  margin-top:2rem;
+    margin-top:2rem;
     }
 form{
-  margin-bottom:2rem;
+    margin-bottom:2rem;
     }
 .form-group,.icons{
-  margin-top:1rem;
+    margin-top:1rem;
     }
 .button-flex{ 
     margin:1rem;
   }
 
   /*BORDER*/
+
 form{
     border:2px solid black
   }
@@ -42,22 +44,23 @@ form,.icons,.button-flex>button{
   }
 
 /*HEIGHTS & WIDTHS*/
+
 body{
     width: 100%;
     }
 body{
-  min-height:100%;
+    min-height:100%;
     }
 .icons{
-  width:2.5rem;
-  height:2.5rem;
+    width:2.5rem;
+    height:2.5rem;
     }   
 .logo-img{
-  height:5rem;
-  width:5rem;
+    height:5rem;
+    width:5rem;
     }
 form{
-  width:90%;
+    width:90%;
     }
 
 /*TEXT STYLE*/
@@ -89,16 +92,16 @@ p{
 
 ul>li a,footer,.logo-header,body,.contact>ul,.social>ul,main,.button-flex
 {
-  display: flex;
+    display: flex;
     }
 .logo-header,main{
-  align-items: center;
+    align-items: center;
     }
 .contact>ul,.social>ul{
-  justify-content:space-around;
+    justify-content:space-around;
     }
 footer,body,main{
-  flex-direction: column;
+    flex-direction: column;
     }
 .button-flex{
     justify-content: end;
@@ -106,7 +109,7 @@ footer,body,main{
 
 @media screen and (min-width:650px){
 form{
-  width:60%;
+    width:60%;
 }
 
 }
