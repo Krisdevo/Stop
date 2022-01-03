@@ -15,7 +15,7 @@ ul>li a,main,p a{
 body{
     margin:0;
   }
-.icons,table{
+.icons{
     margin:1rem;
   }
 article,.img-upper,section,h2{
@@ -34,7 +34,7 @@ p,h3{
   margin-left:1rem;
 }
 tr td,th{
-      padding:1rem;
+      padding:0.3rem;
     }
 
 /*HEIGHTS & WIDTHS*/
@@ -151,6 +151,9 @@ footer,.schedule,body,section>ul,.schedule-location{
   .img-upper,.img-section{
       height:300px;
     }
+  tr td,th{
+    padding:0.6rem;
+  }
   }
 
 @media screen and (min-width:1316px){
